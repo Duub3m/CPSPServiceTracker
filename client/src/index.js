@@ -6,6 +6,7 @@ import Login from './Login';
 import SignUp from './SignUp';
 import Home from './Home';
 import NoPage from './NoPage';
+import Registration from './Registration';
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="home" element={<Home />} />
           <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/registration" element={<Registration />}/>
 
           {/* Add more routes here if needed */}
         </Route>

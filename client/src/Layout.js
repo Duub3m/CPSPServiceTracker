@@ -17,6 +17,9 @@ const Layout = () => {
             <li>
               <Link to="/SignUp" className="dropdown-item">SignUp</Link>
             </li>
+            <li>
+              <Link to="/Registration" className="dropdown-item">Registration</Link>
+            </li>
           </ul>
         </div>
       </nav>

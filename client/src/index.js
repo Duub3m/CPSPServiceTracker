@@ -7,6 +7,7 @@ import SignUp from './SignUp';
 import Home from './Home';
 import NoPage from './NoPage';
 import Registration from './Registration';
+import Profile from './Profile';
 
 
 export default function App() {
@@ -22,6 +23,9 @@ export default function App() {
           <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/registration" element={<Registration />}/>
+        <Route path="/profile" element={<Profile />}/>
+
+
 
           {/* Add more routes here if needed */}
         </Route>

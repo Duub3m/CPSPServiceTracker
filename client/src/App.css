@@ -32,8 +32,8 @@
     border-radius:30px; /* Rounded corners for the input fields */
     border: 1px solid #ccc; /* border for the inputs */
     background-color: #edb818; /* Light background color for the input */
-    color: #ffffff; /* Dark text color for visibility */
-    font-size: 20px; /* Sets the font size */
+    color: #ffffff; 
+    font-size: 20px; 
     outline: none; /* Removes the outline to maintain the style on focus */
     font-family: 'Times New Roman';
 
@@ -82,5 +82,5 @@ cursor: pointer;
 }
 
 .cpsp{
-  
+
 }
